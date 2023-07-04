@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    background-color:#23252C; 
+    font-family: Inter,Roboto,sans-serif;
+    font-size: 18px;
+    justify-content: center;
+   
+}
+.head--img{
+   display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width:30%;
+    border-radius:7px;
+   
+}
+.name--head{
+    color:#FFFFFF;
+    text-align: center;
+    font-size:2.5rem;
+    font-weight:bold;
+    left: auto;
+    
+}
+.role--head{
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #F3BF99;
+    text-align: center;
+    margin-top:-40px;
+
+}
+.website--head{
+    color:#FFFFFF;
+    text-align: center;
+    font-weight:600;
+    line-height: normal;
+}
+.button--mailin{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.email{
+    background-color:#FFFFFF;
+    color:#161619;
+
+}
+.in{  
+    background-color:  #5093E2;
+    color: #FFFFFF;
+    
+}
+.email,.in{
+    padding:10px 80px;
+    margin:10px; 
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;  
+}
+
+.about-wrapper
+{
+    margin: 0 auto;
+    /* margin-left:610px;  */
+    width:500px;
+   
+}
+.about-title{
+    color:#FFFFFF;
+    font-size:28px;
+}
+.about-content{
+    color:#FFFFFF;
+    margin-top:-20px;
+   
+}
+.interest-wrapper{
+    margin: 0 auto;
+    /* margin-left:610px; */
+    width:500px;
+}
+.interest-title{
+    color:#FFFFFF;   
+    font-size:28px;
+}
+.interest-content{
+    color:#FFFFFF;
+    margin-top:-20px;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: center;
+    background: #161619;
+    
+}
+.linkedin,.fb,.github,.instagram{
+    background-color: #918E9B;
+    width:50px;
+    height:35px;
+    margin:25px;
+    text-align: center;
+    font-size:28px;
+    border-radius:4px;
+    color:#161619;
+    
+}
